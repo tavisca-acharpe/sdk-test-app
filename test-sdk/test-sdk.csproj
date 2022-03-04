@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>test_sdk</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tavisca.FeatureConfigurations.Sdk" Version="3.0.0" />
+    <PackageReference Include="Tavisca.Libraries.ExceptionManagement" Version="0.9.0" />
+  </ItemGroup>
+
+</Project>
